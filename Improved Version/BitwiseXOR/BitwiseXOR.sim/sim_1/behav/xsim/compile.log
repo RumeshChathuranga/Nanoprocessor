@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/ProjectImproved/Project/BitwiseXOR/BitwiseXOR.srcs/sources_1/new/BitwiseXOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BitwiseXOR
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/ProjectImproved/Project/BitwiseXOR/BitwiseXOR.srcs/sim_1/new/BitwiseXORSim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BitwiseXORSim

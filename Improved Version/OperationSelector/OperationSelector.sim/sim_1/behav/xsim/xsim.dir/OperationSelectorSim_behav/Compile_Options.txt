@@ -1,0 +1,1 @@
+-wto "ae4d450348f8463ca0645d75d9e957fb" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "OperationSelectorSim_behav" "xil_defaultlib.OperationSelectorSim" -log "elaborate.log" 

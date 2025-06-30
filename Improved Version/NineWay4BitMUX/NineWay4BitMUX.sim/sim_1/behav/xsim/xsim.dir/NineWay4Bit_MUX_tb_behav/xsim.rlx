@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3275747774777002310  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 27f4d483d5e64a3aa0b782391975b266 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot NineWay4Bit_MUX_tb_behav xil_defaultlib.NineWay4Bit_MUX_tb" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/NineWay4Bit_MUX_tb_behav/xsimk.exe\"   \"xsim.dir/NineWay4Bit_MUX_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/NineWay4Bit_MUX_tb_behav/obj/xsim_1.win64.obj\" \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

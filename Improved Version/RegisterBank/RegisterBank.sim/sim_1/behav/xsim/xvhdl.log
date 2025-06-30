@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/ProjectImproved/Project/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/ProjectImproved/Project/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/ProjectImproved/Project/RegisterBank/RegisterBank.srcs/sources_1/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/ProjectImproved/Project/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterBank
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/ProjectImproved/Project/RegisterBank/RegisterBank.srcs/sim_1/new/RegisterBankSim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterBankSim

@@ -1,0 +1,1 @@
+-wto "8376e9a90a6c490082b8f8289cd53247" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "BitwiseXORSim_behav" "xil_defaultlib.BitwiseXORSim" -log "elaborate.log" 

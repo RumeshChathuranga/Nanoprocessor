@@ -1,0 +1,1 @@
+-wto "803c9773c8f14f31b54c995485b1da69" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "BitwiseNOT_behav" "xil_defaultlib.BitwiseNOT" -log "elaborate.log" 

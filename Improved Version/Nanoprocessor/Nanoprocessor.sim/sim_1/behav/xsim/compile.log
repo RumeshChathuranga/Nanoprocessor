@@ -1,0 +1,42 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/AddSub Unit/AddSub Unit.srcs/sources_1/new/ASU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ASU
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/PC/PC.srcs/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/InstructionDecoder/InstructionDecoder.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/EightWay4Bit_MUX/EightWay4Bit_MUX.srcs/sources_1/new/EightWay4Bit_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity EightWay4Bit_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/ProgramROM/ProgramROM.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_8_12
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Seven_Segment_Display/Seven_Segment_Display.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/PC/PC.srcs/sources_1/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/new/RCA_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_3
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/AddSub Unit/AddSub Unit.srcs/sources_1/imports/new/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_4
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/RegisterBank/RegisterBank.srcs/sources_1/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterBank
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Processor_Clock/Processor_Clock.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/new/ThreeBA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ThreeBA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/TwoWay3Bit_MUX/TwoWay3Bit_MUX.srcs/sources_1/new/TwoWay3Bit_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwoWay3Bit_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/TwoWay4Bit_MUX/TwoWay4Bit_MUX.srcs/sources_1/new/TwoWay4Bit_Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwoWay4Bit_Mux
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity nanoprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Nanoprocessor/Nanoprocessor.srcs/sim_1/new/NanoprocessorSim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoprocessorSim

@@ -1,0 +1,538 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat May 24 07:19:20 2025
+# Process ID: 22632
+# Current directory: C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.runs/synth_1
+# Command line: vivado.exe -log ImprovedNanoprocessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ImprovedNanoprocessor.tcl
+# Log file: C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.runs/synth_1/ImprovedNanoprocessor.vds
+# Journal file: C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ImprovedNanoprocessor.tcl -notrace
+Command: synth_design -top ImprovedNanoprocessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11448 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 434.984 ; gain = 96.246
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ImprovedNanoprocessor' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:24]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Slow_Clk.vhd:34' bound to instance 'Processor_Clock_0' of component 'Slow_Clk' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-3491] module 'ImprovedRegisterBank' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:5' bound to instance 'Improved_register_bank' of component 'ImprovedRegisterBank' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:264]
+INFO: [Synth 8-638] synthesizing module 'ImprovedRegisterBank' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:30]
+INFO: [Synth 8-3491] module 'Decoder_4_to_16' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedRegisterBank/ImprovedRegisterBank.srcs/sources_1/new/Decoder_4_16.vhd:4' bound to instance 'Decoder_4_to_16_inst' of component 'Decoder_4_to_16' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Decoder_4_to_16' [C:/Users/dinur/ProjectImproved/Project/ImprovedRegisterBank/ImprovedRegisterBank.srcs/sources_1/new/Decoder_4_16.vhd:14]
+INFO: [Synth 8-226] default block is never used [C:/Users/dinur/ProjectImproved/Project/ImprovedRegisterBank/ImprovedRegisterBank.srcs/sources_1/new/Decoder_4_16.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_4_to_16' (2#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedRegisterBank/ImprovedRegisterBank.srcs/sources_1/new/Decoder_4_16.vhd:14]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_0' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (3#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:12]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_1' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:62]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_2' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:63]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_3' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:64]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_4' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:65]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_5' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:66]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_6' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:67]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_7' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:68]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_8' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:69]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_9' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:70]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_10' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:71]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_11' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:72]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_12' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:73]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_13' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:74]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_14' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:75]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Reg.vhd:4' bound to instance 'Reg_15' of component 'Reg' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'ImprovedRegisterBank' (4#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedRegisterBank.vhd:30]
+INFO: [Synth 8-3491] module 'SixteenWay4BitMUX' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/SixteenWay4BitMUX.vhd:4' bound to instance 'SixteenWay4Bit_MUX_0' of component 'SixteenWay4BitMUX' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:286]
+INFO: [Synth 8-638] synthesizing module 'SixteenWay4BitMUX' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/SixteenWay4BitMUX.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/SixteenWay4BitMUX.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'SixteenWay4BitMUX' (5#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/SixteenWay4BitMUX.vhd:12]
+INFO: [Synth 8-3491] module 'SixteenWay4BitMUX' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/SixteenWay4BitMUX.vhd:4' bound to instance 'SixteenWay4Bit_MUX_1' of component 'SixteenWay4BitMUX' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:307]
+INFO: [Synth 8-3491] module 'NineWay4Bit_MUX' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/NineWay4BitMUX.vhd:5' bound to instance 'nineway_mux' of component 'NineWay4Bit_MUX' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:328]
+INFO: [Synth 8-638] synthesizing module 'NineWay4Bit_MUX' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/NineWay4BitMUX.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'NineWay4Bit_MUX' (6#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/NineWay4BitMUX.vhd:13]
+INFO: [Synth 8-3491] module 'ASU' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ASU.vhd:4' bound to instance 'asu_0' of component 'ASU' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:342]
+INFO: [Synth 8-638] synthesizing module 'ASU' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ASU.vhd:14]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:5' bound to instance 'RCA_4_0' of component 'RCA_4' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ASU.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:25]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_0' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:45]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:37' bound to instance 'HA_0' of component 'HA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'HA' (7#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:44]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:37' bound to instance 'HA_1' of component 'HA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'FA' (8#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:45]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_1' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:48]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_2' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:56]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_3' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (9#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ASU' (10#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ASU.vhd:14]
+INFO: [Synth 8-3491] module 'ImprovedInstructionDecoder' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedInstructionDecoder.vhd:4' bound to instance 'improved_instruction_decoder' of component 'ImprovedInstructionDecoder' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:350]
+INFO: [Synth 8-638] synthesizing module 'ImprovedInstructionDecoder' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedInstructionDecoder.vhd:18]
+INFO: [Synth 8-3491] module 'Decoder_4_to_12' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Decoder_4_16.vhd:5' bound to instance 'Decoder_4_to_12_0' of component 'Decoder_4_to_12' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedInstructionDecoder.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'Decoder_4_to_12' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Decoder_4_16.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_4_to_12' (11#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Decoder_4_16.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'ImprovedInstructionDecoder' (12#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedInstructionDecoder.vhd:18]
+INFO: [Synth 8-3491] module 'ImprovedProgramROM' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedProgramROM.vhd:5' bound to instance 'improved_rom' of component 'ImprovedProgramROM' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:364]
+INFO: [Synth 8-638] synthesizing module 'ImprovedProgramROM' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedProgramROM.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'ImprovedProgramROM' (13#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/ImprovedProgramROM.vhd:11]
+INFO: [Synth 8-3491] module 'ImprovedPC' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/ImprovedPC.vhd:6' bound to instance 'imporved_pc_0' of component 'ImprovedPC' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:369]
+INFO: [Synth 8-638] synthesizing module 'ImprovedPC' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/ImprovedPC.vhd:13]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF0' of component 'D_FF' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/ImprovedPC.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (14#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF1' of component 'D_FF' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/ImprovedPC.vhd:32]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF2' of component 'D_FF' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/ImprovedPC.vhd:38]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF3' of component 'D_FF' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/ImprovedPC.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'ImprovedPC' (15#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/ImprovedPC.vhd:13]
+INFO: [Synth 8-3491] module 'Improved4BitAdder' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Improved4BitAdder.vhd:5' bound to instance 'improved_4ba_0' of component 'Improved4BitAdder' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:376]
+INFO: [Synth 8-638] synthesizing module 'Improved4BitAdder' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Improved4BitAdder.vhd:11]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:5' bound to instance 'RCA4_0' of component 'RCA_4' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Improved4BitAdder.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'Improved4BitAdder' (16#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/new/Improved4BitAdder.vhd:11]
+INFO: [Synth 8-3491] module 'TwoWay4Bit_Mux' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/TwoWay4Bit_Mux.vhd:4' bound to instance 'next_address_select' of component 'TwoWay4Bit_Mux' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:381]
+INFO: [Synth 8-638] synthesizing module 'TwoWay4Bit_Mux' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/TwoWay4Bit_Mux.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'TwoWay4Bit_Mux' (17#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/TwoWay4Bit_Mux.vhd:11]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/LUT_16_7.vhd:35' bound to instance 'seven_segment' of component 'LUT_16_7' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:388]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (18#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-3491] module 'Multiplier_4' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:6' bound to instance 'multiplier' of component 'Multiplier_4' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:393]
+INFO: [Synth 8-638] synthesizing module 'Multiplier_4' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:14]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_0_0' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_0_1' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:40]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_1_0' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:48]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_0_2' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:57]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_1_1' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:65]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_2_0' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:75]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_1_2' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:83]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_2_1' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:91]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:37' bound to instance 'FA_3_0' of component 'FA' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:99]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_4' (19#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Multiplier_4.vhd:14]
+INFO: [Synth 8-3491] module 'BitShifterLeft' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitShifterLeft/BitShifterLeft.srcs/sources_1/new/BitShifterLeft.vhd:4' bound to instance 'bit_left' of component 'BitShifterLeft' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:400]
+INFO: [Synth 8-638] synthesizing module 'BitShifterLeft' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitShifterLeft/BitShifterLeft.srcs/sources_1/new/BitShifterLeft.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'BitShifterLeft' (20#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitShifterLeft/BitShifterLeft.srcs/sources_1/new/BitShifterLeft.vhd:11]
+INFO: [Synth 8-3491] module 'BitShifterRight' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitShifterRight/BitShifterRight.srcs/sources_1/new/BitShifterRight.vhd:4' bound to instance 'bit_right' of component 'BitShifterRight' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:406]
+INFO: [Synth 8-638] synthesizing module 'BitShifterRight' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitShifterRight/BitShifterRight.srcs/sources_1/new/BitShifterRight.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'BitShifterRight' (21#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitShifterRight/BitShifterRight.srcs/sources_1/new/BitShifterRight.vhd:11]
+INFO: [Synth 8-3491] module 'BitwiseAND' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseAND/BitwiseAND.srcs/sources_1/new/BitwiseAND.vhd:6' bound to instance 'bit_and' of component 'BitwiseAND' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:412]
+INFO: [Synth 8-638] synthesizing module 'BitwiseAND' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseAND/BitwiseAND.srcs/sources_1/new/BitwiseAND.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'BitwiseAND' (22#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseAND/BitwiseAND.srcs/sources_1/new/BitwiseAND.vhd:12]
+INFO: [Synth 8-3491] module 'BitwiseNOT' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseNOT/BitwiseNOT.srcs/sources_1/new/BitwiseNOT.vhd:13' bound to instance 'bit_not' of component 'BitwiseNOT' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:419]
+INFO: [Synth 8-638] synthesizing module 'BitwiseNOT' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseNOT/BitwiseNOT.srcs/sources_1/new/BitwiseNOT.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'BitwiseNOT' (23#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseNOT/BitwiseNOT.srcs/sources_1/new/BitwiseNOT.vhd:18]
+INFO: [Synth 8-3491] module 'BitwiseOR' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseOR/BitwiseOR.srcs/sources_1/new/BitwiseOR.vhd:13' bound to instance 'bit_or' of component 'BitwiseOR' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:426]
+INFO: [Synth 8-638] synthesizing module 'BitwiseOR' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseOR/BitwiseOR.srcs/sources_1/new/BitwiseOR.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'BitwiseOR' (24#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseOR/BitwiseOR.srcs/sources_1/new/BitwiseOR.vhd:19]
+INFO: [Synth 8-3491] module 'BitwiseXOR' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseXOR/BitwiseXOR.srcs/sources_1/new/BitwiseXOR.vhd:13' bound to instance 'bit_xor' of component 'BitwiseXOR' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:433]
+INFO: [Synth 8-638] synthesizing module 'BitwiseXOR' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseXOR/BitwiseXOR.srcs/sources_1/new/BitwiseXOR.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'BitwiseXOR' (25#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/Project/BitwiseXOR/BitwiseXOR.srcs/sources_1/new/BitwiseXOR.vhd:19]
+INFO: [Synth 8-3491] module 'Comparator_4bit' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Comparator_4bit.vhd:5' bound to instance 'comparator' of component 'Comparator_4bit' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:440]
+INFO: [Synth 8-638] synthesizing module 'Comparator_4bit' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Comparator_4bit.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Comparator_4bit' (26#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/Comparator_4bit.vhd:15]
+INFO: [Synth 8-3491] module 'OperationSelector' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/OperationSelector.vhd:4' bound to instance 'opr_selector_0' of component 'OperationSelector' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:449]
+INFO: [Synth 8-638] synthesizing module 'OperationSelector' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/OperationSelector.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'OperationSelector' (27#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/OperationSelector.vhd:22]
+INFO: [Synth 8-3491] module 'OperationSelector' declared at 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/new/OperationSelector.vhd:4' bound to instance 'opr_selector_1' of component 'OperationSelector' [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:463]
+INFO: [Synth 8-256] done synthesizing module 'ImprovedNanoprocessor' (28#1) [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/new/ImprovedNanoprocessor.vhd:24]
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[0] driven by constant 0
+WARNING: [Synth 8-3331] design BitShifterRight has unconnected port A[0]
+WARNING: [Synth 8-3331] design BitShifterLeft has unconnected port A[3]
+WARNING: [Synth 8-3331] design RCA_4 has unconnected port C_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 491.172 ; gain = 152.434
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 491.172 ; gain = 152.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 491.172 ; gain = 152.434
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/constrs_1/new/InprovedNanoCons.xdc]
+Finished Parsing XDC File [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/constrs_1/new/InprovedNanoCons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/constrs_1/new/InprovedNanoCons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ImprovedNanoprocessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ImprovedNanoprocessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 823.953 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 823.953 ; gain = 485.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 823.953 ; gain = 485.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 823.953 ; gain = 485.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "program_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ToAddSub0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ToMul0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 823.953 ; gain = 485.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 16    
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
+	  17 Input      7 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 18    
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module NineWay4Bit_MUX 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      4 Bit        Muxes := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module ASU 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module ImprovedProgramROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 1     
+Module D_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module TwoWay4Bit_Mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module LUT_16_7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+Module BitwiseXOR 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+Module Comparator_4bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module OperationSelector 
+Detailed RTL Component Info : 
++---Muxes : 
+	  10 Input      4 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element imporved_pc_0/D_FF0/Qbar_reg was removed.  [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element imporved_pc_0/D_FF1/Qbar_reg was removed.  [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element imporved_pc_0/D_FF2/Qbar_reg was removed.  [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element imporved_pc_0/D_FF3/Qbar_reg was removed.  [C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:49]
+INFO: [Synth 8-5545] ROM "Processor_Clock_0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Processor_Clock_0/Clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design ImprovedNanoprocessor has port Anode[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_15/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_14/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_14/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_13/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_12/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_11/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_10/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_9/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Improved_register_bank/Reg_8/Y_reg[3] )
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_0/Y_reg[3]' (FDRE) to 'Improved_register_bank/Reg_0/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_15/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_14/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_14/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_13/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_12/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_11/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_10/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_9/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Improved_register_bank/Reg_8/Y_reg[2] )
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_0/Y_reg[2]' (FDRE) to 'Improved_register_bank/Reg_0/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_15/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_14/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_14/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_13/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_12/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_11/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_10/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_9/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Improved_register_bank/Reg_8/Y_reg[1] )
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_0/Y_reg[1]' (FDRE) to 'Improved_register_bank/Reg_0/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_15/Y_reg[0]' (FDRE) to 'Improved_register_bank/Reg_14/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_14/Y_reg[0]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_13/Y_reg[0]' (FDRE) to 'Improved_register_bank/Reg_12/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_12/Y_reg[0]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_11/Y_reg[0]' (FDRE) to 'Improved_register_bank/Reg_10/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_10/Y_reg[0]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Improved_register_bank/Reg_9/Y_reg[0]' (FDRE) to 'Improved_register_bank/Reg_8/Y_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Improved_register_bank/Reg_8/Y_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Improved_register_bank/Reg_0/Y_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_0/Y_reg[0]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_8/Y_reg[3]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_8/Y_reg[2]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_8/Y_reg[1]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_8/Y_reg[0]) is unused and will be removed from module ImprovedNanoprocessor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 823.953 ; gain = 485.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 823.953 ; gain = 485.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 835.613 ; gain = 496.875
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_4/Y_reg[3]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_4/Y_reg[2]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_4/Y_reg[1]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_4/Y_reg[0]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_6/Y_reg[3]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_6/Y_reg[2]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_6/Y_reg[1]) is unused and will be removed from module ImprovedNanoprocessor.
+WARNING: [Synth 8-3332] Sequential element (Improved_register_bank/Reg_6/Y_reg[0]) is unused and will be removed from module ImprovedNanoprocessor.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    10|
+|3     |LUT1   |     1|
+|4     |LUT2   |    27|
+|5     |LUT3   |     8|
+|6     |LUT4   |    45|
+|7     |LUT5   |    44|
+|8     |LUT6   |    34|
+|9     |FDRE   |    58|
+|10    |IBUF   |     2|
+|11    |OBUF   |    21|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------+---------------------+------+
+|      |Instance                 |Module               |Cells |
++------+-------------------------+---------------------+------+
+|1     |top                      |                     |   251|
+|2     |  Improved_register_bank |ImprovedRegisterBank |    27|
+|3     |    Reg_1                |Reg                  |     4|
+|4     |    Reg_2                |Reg_3                |     4|
+|5     |    Reg_3                |Reg_4                |     4|
+|6     |    Reg_5                |Reg_5                |     4|
+|7     |    Reg_7                |Reg_6                |    11|
+|8     |  Processor_Clock_0      |Slow_Clk             |    54|
+|9     |  imporved_pc_0          |ImprovedPC           |   144|
+|10    |    D_FF0                |D_FF                 |     2|
+|11    |    D_FF1                |D_FF_0               |     7|
+|12    |    D_FF2                |D_FF_1               |   118|
+|13    |    D_FF3                |D_FF_2               |    17|
+|14    |  multiplier             |Multiplier_4         |     2|
++------+-------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 837.801 ; gain = 499.062
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 837.801 ; gain = 166.281
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 837.801 ; gain = 499.062
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+175 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 837.801 ; gain = 511.359
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/dinur/ProjectImproved/Project/ImprovedNanoprocessor/ImprovedNanoprocessor.runs/synth_1/ImprovedNanoprocessor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ImprovedNanoprocessor_utilization_synth.rpt -pb ImprovedNanoprocessor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 837.801 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat May 24 07:20:01 2025...

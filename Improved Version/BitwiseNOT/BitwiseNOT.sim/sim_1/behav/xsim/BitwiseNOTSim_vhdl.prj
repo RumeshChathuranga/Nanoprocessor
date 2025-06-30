@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BitwiseNOT.srcs/sources_1/new/BitwiseNOT.vhd" \
+"../../../../BitwiseNOT.srcs/sim_1/new/BitwiseNOTSim.vhd" \
+
+# Do not sort compile order
+nosort

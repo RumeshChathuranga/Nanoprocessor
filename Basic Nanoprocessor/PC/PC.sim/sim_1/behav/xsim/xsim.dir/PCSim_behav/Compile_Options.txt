@@ -1,0 +1,1 @@
+-wto "c8c0457c58a44b83b15ef21c100e8100" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "PCSim_behav" "xil_defaultlib.PCSim" -log "elaborate.log" 

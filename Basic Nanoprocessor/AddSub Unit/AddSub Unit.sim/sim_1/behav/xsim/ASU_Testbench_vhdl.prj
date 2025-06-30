@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AddSub Unit.srcs/sources_1/new/ASU.vhd" \
+"../../../../AddSub Unit.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../AddSub Unit.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../AddSub Unit.srcs/sources_1/imports/new/RCA_4.vhd" \
+"../../../../AddSub Unit.srcs/sim_1/new/ASU_Sim.vhd" \
+
+# Do not sort compile order
+nosort

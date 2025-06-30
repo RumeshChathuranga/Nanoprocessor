@@ -1,0 +1,7 @@
+Running: xsim.dir/BitShifterLeftSim_behav/xsimk.exe -simmode gui -wdb BitShifterLeftSim_behav.wdb -simrunnum 0 -socket 49718
+Design successfully loaded
+Design Loading Memory Usage: 7556 KB (Peak: 7556 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 7872 KB (Peak: 7872 KB)
+Simulation CPU Usage: 61 ms

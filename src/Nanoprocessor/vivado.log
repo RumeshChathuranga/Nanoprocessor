@@ -1,0 +1,137 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri May  9 13:08:20 2025
+# Process ID: 3808
+# Current directory: G:/My Drive/Project/Nanoprocessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9920 G:\My Drive\Project\Nanoprocessor\Nanoprocessor.xpr
+# Log file: G:/My Drive/Project/Nanoprocessor/vivado.log
+# Journal file: G:/My Drive/Project/Nanoprocessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/My Drive/Project/Nanoprocessor/Nanoprocessor.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/dinur/Project/Nanoprocessor' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 875.531 ; gain = 156.809
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/My Drive/Project/Nanoprocessor/Nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'NanoprocessorSim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/My Drive/Project/Nanoprocessor/Nanoprocessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj NanoprocessorSim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/AddSub Unit/AddSub Unit.srcs/sources_1/new/ASU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ASU
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/PC/PC.srcs/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/InstructionDecoder/InstructionDecoder.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/EightWay4Bit_MUX/EightWay4Bit_MUX.srcs/sources_1/new/EightWay4Bit_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity EightWay4Bit_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstructionDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/ProgramROM/ProgramROM.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_8_12
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Seven_Segment_Display/Seven_Segment_Display.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/PC/PC.srcs/sources_1/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/new/RCA_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_3
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/AddSub Unit/AddSub Unit.srcs/sources_1/imports/new/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_4
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/RegisterBank/RegisterBank.srcs/sources_1/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterBank
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Processor_Clock/Processor_Clock.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/3BitAdder/3BitAdder.srcs/sources_1/new/ThreeBA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ThreeBA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/TwoWay3Bit_MUX/TwoWay3Bit_MUX.srcs/sources_1/new/TwoWay3Bit_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwoWay3Bit_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/TwoWay4Bit_MUX/TwoWay4Bit_MUX.srcs/sources_1/new/TwoWay4Bit_Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwoWay4Bit_Mux
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity nanoprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/My Drive/Project/Nanoprocessor/Nanoprocessor.srcs/sim_1/new/NanoprocessorSim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoprocessorSim
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 888.938 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '10' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/My Drive/Project/Nanoprocessor/Nanoprocessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto c0ac7b89d02c4a91a3529e4718360abc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot NanoprocessorSim_behav xil_defaultlib.NanoprocessorSim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterBank [registerbank_default]
+Compiling architecture behavioral of entity xil_defaultlib.EightWay4Bit_MUX [eightway4bit_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.TwoWay4Bit_Mux [twoway4bit_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.ASU [asu_default]
+Compiling architecture behavioral of entity xil_defaultlib.InstructionDecoder [instructiondecoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_8_12 [lut_8_12_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_3 [rca_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.ThreeBA [threeba_default]
+Compiling architecture behavioral of entity xil_defaultlib.TwoWay3Bit_MUX [twoway3bit_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.nanoprocessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.nanoprocessorsim
+Built simulation snapshot NanoprocessorSim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/My Drive/Project/Nanoprocessor/Nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "NanoprocessorSim_behav -key {Behavioral:sim_1:Functional:NanoprocessorSim} -tclbatch {NanoprocessorSim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source NanoprocessorSim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'NanoprocessorSim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 897.371 ; gain = 19.891
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  9 13:10:13 2025...

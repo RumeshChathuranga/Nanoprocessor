@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BitwiseAND.srcs/sources_1/new/BitwiseAND.vhd" \
+"../../../../BitwiseAND.srcs/sim_1/new/BitwiseANDSim.vhd" \
+
+# Do not sort compile order
+nosort

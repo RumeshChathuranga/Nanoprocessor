@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2470935909964774088  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto a0b5ff94686549feb1806f3cb4142506 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ComparatorSim_behav xil_defaultlib.ComparatorSim" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/ComparatorSim_behav/xsimk.exe\"   \"xsim.dir/ComparatorSim_behav/obj/xsim_0.win64.obj\" \"xsim.dir/ComparatorSim_behav/obj/xsim_1.win64.obj\" \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

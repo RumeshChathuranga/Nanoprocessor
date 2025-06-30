@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/Project/TwoWay4Bit_MUX/TwoWay4Bit_MUX.srcs/sources_1/new/TwoWay4Bit_Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwoWay4Bit_Mux
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/Project/TwoWay4Bit_MUX/TwoWay4Bit_MUX.srcs/sim_1/new/TwoWay4Bit Sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TwoWay4Bit_Mux_Testbench

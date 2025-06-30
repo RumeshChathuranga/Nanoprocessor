@@ -1,0 +1,1 @@
+-wto "0ff8b3b5075240e19b105c000e588a6d" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "RightBitShiftSim_behav" "xil_defaultlib.RightBitShiftSim" -log "elaborate.log" 

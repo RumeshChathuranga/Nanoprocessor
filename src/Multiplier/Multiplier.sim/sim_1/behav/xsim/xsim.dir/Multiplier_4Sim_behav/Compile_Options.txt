@@ -1,0 +1,1 @@
+-wto "feceaa363ff349f1b00155ee22eb6421" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Multiplier_4Sim_behav" "xil_defaultlib.Multiplier_4Sim" -log "elaborate.log" 

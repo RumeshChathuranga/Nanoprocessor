@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri May  9 13:08:20 2025
+# Process ID: 3808
+# Current directory: G:/My Drive/Project/Nanoprocessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9920 G:\My Drive\Project\Nanoprocessor\Nanoprocessor.xpr
+# Log file: G:/My Drive/Project/Nanoprocessor/vivado.log
+# Journal file: G:/My Drive/Project/Nanoprocessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/My Drive/Project/Nanoprocessor/Nanoprocessor.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source NanoprocessorSim.tcl
+close_sim

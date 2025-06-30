@@ -1,0 +1,7 @@
+Running: xsim.dir/Improved4BitAdderSim_behav/xsimk.exe -simmode gui -wdb Improved4BitAdderSim_behav.wdb -simrunnum 0 -socket 49196
+Design successfully loaded
+Design Loading Memory Usage: 7572 KB (Peak: 7572 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7892 KB (Peak: 7892 KB)
+Simulation CPU Usage: 15 ms

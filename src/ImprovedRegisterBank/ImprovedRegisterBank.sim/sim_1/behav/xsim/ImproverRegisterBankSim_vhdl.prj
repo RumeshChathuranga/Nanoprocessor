@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ImprovedRegisterBank.srcs/sources_1/new/Decoder_4_16.vhd" \
+"../../../../ImprovedRegisterBank.srcs/sources_1/new/ImprovedRegisterBank.vhd" \
+"../../../../../RegisterBank/RegisterBank.srcs/sources_1/new/Reg.vhd" \
+"../../../../ImprovedRegisterBank.srcs/sim_1/new/ImprovedRegisterBankSim.vhd" \
+
+# Do not sort compile order
+nosort

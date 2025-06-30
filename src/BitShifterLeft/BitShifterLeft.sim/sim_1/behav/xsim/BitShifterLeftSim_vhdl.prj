@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BitShifterLeft.srcs/sources_1/new/BitShifterLeft.vhd" \
+"../../../../BitShifterLeft.srcs/sim_1/new/BitShifterLeftSim.vhd" \
+
+# Do not sort compile order
+nosort

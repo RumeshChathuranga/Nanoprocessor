@@ -1,0 +1,7 @@
+Running: xsim.dir/OperationSelectorSim_behav/xsimk.exe -simmode gui -wdb OperationSelectorSim_behav.wdb -simrunnum 0 -socket 56720
+Design successfully loaded
+Design Loading Memory Usage: 8244 KB (Peak: 8244 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 8516 KB (Peak: 8516 KB)
+Simulation CPU Usage: 46 ms

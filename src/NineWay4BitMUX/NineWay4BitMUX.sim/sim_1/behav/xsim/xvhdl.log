@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/ProjectImproved/Project/NineWay4BitMUX/NineWay4BitMUX.srcs/sources_1/new/NineWay4BitMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NineWay4Bit_MUX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/ProjectImproved/Project/NineWay4BitMUX/NineWay4BitMUX.srcs/sim_1/new/NineWay4BitMUXSim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NineWay4Bit_MUX_tb

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/ProjectImproved/Project/BitwiseAND/BitwiseAND.srcs/sources_1/new/BitwiseAND.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BitwiseAND
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/dinur/ProjectImproved/Project/BitwiseAND/BitwiseAND.srcs/sim_1/new/BitwiseANDSim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BitwiseANDSim
